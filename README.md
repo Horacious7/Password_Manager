@@ -35,4 +35,4 @@ This is a simple password manager application created in Python using PyQt5 for 
 Contributions are welcome. Please fork the repository and submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
