@@ -12,6 +12,9 @@ This is a simple password manager application created in Python using PyQt5 for 
     ```bash
     pip install -r requirements.txt
     ```
+3. Change the paths in the following files:
+    main.py, ui_mainwindow.py, crypto_utils.py
+    Change the path to where you installed the package
 
 ## Usage
 
