@@ -1,7 +1,7 @@
 # Password Manager Python
 
 ## Description
-This is a simple password manager application created in Python using PyQt5 for the graphical interface and cryptography for security.
+This is a simple password manager application created in Python using PyQt5 for the graphical interface and cryptography for security. It leverages Fernet encryption (based on AES) to securely store passwords.
 ## Installation
 
 1. Clone the repository:
