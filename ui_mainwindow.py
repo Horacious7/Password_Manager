@@ -10,19 +10,19 @@ class Ui_MainWindow:
         self.centralwidget = QWidget(MainWindow)
         self.verticalLayout = QVBoxLayout(self.centralwidget)
 
-        # Definirea widgeturilor
+    
         self.username_input = QLineEdit(self.centralwidget)
         self.password_input = QLineEdit(self.centralwidget)
-        self.password_input.setEchoMode(QLineEdit.Password)  # Ascunde parola
+        self.password_input.setEchoMode(QLineEdit.Password)  
 
         self.add_button = QPushButton("Add Password", self.centralwidget)
         self.view_button = QPushButton("View Passwords", self.centralwidget)
         self.delete_button = QPushButton("Delete Password", self.centralwidget)
 
         self.password_display = QTextEdit(self.centralwidget)
-        self.password_display.setReadOnly(True)  # Nu permite modificarea textului
+        self.password_display.setReadOnly(True)  
 
-        # Adăugarea widgeturilor în layout
+        
         self.verticalLayout.addWidget(self.username_input)
         self.verticalLayout.addWidget(self.password_input)
         self.verticalLayout.addWidget(self.add_button)
